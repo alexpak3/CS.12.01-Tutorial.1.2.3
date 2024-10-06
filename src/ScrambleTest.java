@@ -14,6 +14,7 @@ class ScrambleTest {
 
         assertEquals("TNA", Scramble.scrambleWord("TAN"));
         assertEquals("BARCADABARA", Scramble.scrambleWord("ABRACADABRA"));
+
         assertEquals("WHOA", Scramble.scrambleWord("WHOA"));
         assertEquals("ARADVRAK", Scramble.scrambleWord("AARDVARK"));
         assertEquals("EGGS", Scramble.scrambleWord("EGGS"));
